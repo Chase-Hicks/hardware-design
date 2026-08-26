@@ -1,0 +1,57 @@
+Silkecreen Text:
+- width = 0.8 mm
+- Height = 0.8 mm
+- Thickness = 0.15 mm
+
+
+Default(in addition to KiCad Defaults):
+- Part Description
+- Supplier
+- Supplier PN
+- MFG
+- MFG PN
+- Package/Case
+- PN (this is for internal use)
+
+Sorting Component Attributes
+
+Capacitors
+- Ref Designator
+- Value
+- Tolerance
+- Voltage
+- Dielectric
+- Case Size
+
+Resistors
+- Ref
+- Value
+- Tolerance
+- Power
+- Case Size
+
+
+Inductors
+- Ref
+- Value
+- Tolerance
+- Current
+- DCR
+- Case Size
+
+Ferrite Beads
+- Ref
+- Value
+- Current
+- DCR
+- Case Size
+
+ICs
+
+LEDs
+- Ref
+- Value
+- Current
+- Voltage
+- Package/Case
+

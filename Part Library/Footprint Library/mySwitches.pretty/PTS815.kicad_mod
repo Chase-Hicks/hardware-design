@@ -1,0 +1,147 @@
+(footprint "PTS815"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.55 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "831adc86-a22f-44a4-9a03-2d35b93f7ac5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "PTS815"
+		(at -0.05 4.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9daae4f-c9e7-4adb-bcff-157907d49518")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e42f183-e2cb-4b07-a512-617af3e5a5b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6500f6c2-e92d-4534-9ecb-9ce2b98c5539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.2 -1.7)
+		(end 0.2 -0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "42dbb609-039c-4554-9d9b-9cb4e3f47b69")
+	)
+	(fp_line
+		(start 4.4 -1.725)
+		(end 4.4 -0.475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5cc75c33-dcf9-4f7b-8465-315b6c6fe33d")
+	)
+	(fp_rect
+		(start 0.2 -2.75)
+		(end 4.4 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0c5194e6-df47-4e6d-aeb8-4e178c77be0f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.3 -1.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db62777b-e5ec-4eb5-b106-e2d4f88aab10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.15)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ad958004-a769-4d3c-b1d4-36d7f9e067eb")
+	)
+	(pad "1" smd roundrect
+		(at 4.5 -2.15)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "62b61c83-1082-4f41-a52e-9a4c64ae3dfc")
+	)
+	(pad "4" smd roundrect
+		(at 0 0)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c09e5ebb-46e4-4f47-a982-f44c9ff934e6")
+	)
+	(pad "4" smd roundrect
+		(at 4.5 0)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "13aaa770-84f0-437e-aaab-4362d40c7ef4")
+	)
+	(embedded_fonts no)
+	(model "${LIBRARY_3D}/Switches/PTS815SJM250SMTRLFS.stp"
+		(offset
+			(xyz 2.3 1.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

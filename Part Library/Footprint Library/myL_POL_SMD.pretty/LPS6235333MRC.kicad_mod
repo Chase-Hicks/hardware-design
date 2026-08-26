@@ -1,0 +1,244 @@
+(footprint "LPS6235333MRC"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LPS6235-333MRC-4")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "946d03d1-db88-44fe-ae4e-23c0758405eb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LPS6235333MRC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "302a75a3-143f-4a58-ae73-85144a0c09c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "046c05e7-42ac-4dd2-aa93-a6badb6e0aaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f52f3e0a-2098-45a3-a645-b8ffd8b8bea0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4 0)
+		(end -4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fdcd101-f75e-49dd-ae02-f3c471d8b925")
+	)
+	(fp_line
+		(start -4 0)
+		(end -4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aec4b3bd-9331-449f-b456-6148748f077d")
+	)
+	(fp_line
+		(start -3.9 0)
+		(end -3.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d2d2342-0c0c-4373-9b50-8a46e85f85b4")
+	)
+	(fp_rect
+		(start -3.6 -3.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a288a2fa-6163-4d2c-8687-45a80303a20d")
+	)
+	(fp_arc
+		(start -4 0)
+		(mid -3.95 -0.05)
+		(end -3.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2178711d-62d0-486a-a51d-8e0e8be6f6d6")
+	)
+	(fp_arc
+		(start -3.9 0)
+		(mid -3.95 0.05)
+		(end -4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "059712de-ced9-4aec-9154-ccdef209880b")
+	)
+	(fp_arc
+		(start -3.9 0)
+		(mid -3.95 0.05)
+		(end -4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7c2e47b-53d6-4ebe-8fc8-2228901dade6")
+	)
+	(fp_line
+		(start -3.6 -3.6)
+		(end 3.6 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35ff6d5c-5885-44c7-9de1-487dad63dc47")
+	)
+	(fp_line
+		(start -3.6 3.6)
+		(end -3.6 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d7352a5-15e4-45cf-baf3-31d813324219")
+	)
+	(fp_line
+		(start 3.6 -3.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89057c42-ce6c-4dd1-a7dc-da96683b94d8")
+	)
+	(fp_line
+		(start 3.6 3.6)
+		(end -3.6 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0d9754c-de87-4e53-aee3-1ec9f749b238")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b786d2d2-d232-49c0-8ae7-24c17dc2540f")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9942d272-f65e-4736-9725-4b75c2c6fd60")
+	)
+	(fp_line
+		(start 3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8271325-021b-41b0-a1f9-24cd460b9959")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28022f39-01cc-43fb-a7d3-16237ed5709c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "68264787-7fbf-491a-b90c-36a40f19ed77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.15 0)
+		(size 2.3 6.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da92dba7-38b6-41bf-bc93-9275b5c8a998")
+	)
+	(pad "2" smd rect
+		(at 2.15 0)
+		(size 2.3 6.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "06a6ecba-441f-4afc-8395-091603ac06e4")
+	)
+	(embedded_fonts no)
+	(model "${LIBRARY_3D}/PASSIVES/LPS6235-333MRC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
